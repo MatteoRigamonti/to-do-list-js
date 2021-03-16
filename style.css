@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	max-width: 500px;
+	margin: auto;
+}
+
+#to-do {
+	padding: 0;
+	list-style: none;
+}
+
+.item {
+	color: #fff;
+	background-color: crimson;
+	padding: 15px;
+	border-bottom: 1px solid #fff;
+}
+
+.flex-form {
+	display: flex;
+}
+
+.flex-form input {
+	width: 100%;
+	padding: 15px;
+	border: 1px solid #ccc;
+}
+
+.flex-form button {
+	color: #fff;
+	border: 0;
+	padding: 15px;
+	text-transform: uppercase;
+	background-color: crimson;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.flex-form button:hover {
+	background-color: #ba2945;
+}
